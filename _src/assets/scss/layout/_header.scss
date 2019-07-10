@@ -1,0 +1,38 @@
+.page__header {
+  background-color: black;
+}
+.menu__list {
+  display: none;
+}
+.menu__header {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.menu__buttons-icon {
+  color: white;
+  text-decoration: none;
+  i:not(last-child) {
+    margin-right: 10px;
+  }
+}
+.page__name {
+  height: 200px;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.page__link {
+  color: grey;
+  text-decoration: none;
+  border-bottom: 1px solid grey;
+}
+.page__title, .page__subtitle {
+  margin: 10px auto;
+
+}

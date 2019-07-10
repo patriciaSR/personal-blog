@@ -1,0 +1,12 @@
+
+@media all and (min-width:780px) {
+  .page__main {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+  }
+  .main__container {
+    flex: 3;
+    margin-right: 50px;
+  }
+}

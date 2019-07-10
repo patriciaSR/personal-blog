@@ -1,0 +1,7 @@
+.asides {
+  display: none;
+  @media all and (min-width:780px) {
+    display: block;
+    flex: 1;
+  }
+}

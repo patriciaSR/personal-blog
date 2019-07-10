@@ -1,0 +1,21 @@
+@media all and (max-width:320px) {
+  .page__main.container {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.article__img-container {
+  margin: 0;
+  width: 100%;
+}
+.article__img {
+  width: 100%;
+}
+.article__footer {
+  display: flex;
+  justify-content: space-between;
+}
+.article__container {
+  padding: 15px;
+}

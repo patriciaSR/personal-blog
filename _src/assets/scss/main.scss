@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 0 15px;
+  @media all and (min-width:780px) {
+    margin: 0 45px;
+  }
+}
+@import 'layout/_header.scss';
+@import 'layout/_main.scss';
+@import 'partials/_main-articles.scss';
+@import 'partials/_main-asides.scss';
+@import 'partials/_hero.scss';
+@import 'layout/_footer.scss';
+
+

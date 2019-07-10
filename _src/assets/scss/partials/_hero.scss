@@ -1,0 +1,46 @@
+.featured {
+  background-color: rgba(#000000, .7);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+
+  &__container {
+    padding: 10px 50px;
+    color: white;
+  }
+}
+
+.hero {
+  position: relative;
+}
+
+.hero__container {
+  display: flex;
+  height: 400px;
+
+  .hero__small {
+    flex: 1;
+
+    .hero__image {
+      height: 50%;
+    }
+  }
+}
+
+.hero__image {
+  flex: 1;
+  background-image: url("https://picsum.photos/200");
+  background-size: cover;
+
+  &--big {
+    flex: 2;
+  }
+
+  &--small {
+    flex: 1;
+  }
+
+  img {
+    width: 100%;
+  }
+}
